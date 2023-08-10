@@ -7,9 +7,15 @@
   "capabilities": [
     "onoff",
     "dim"
+    "light_temperature"
   ],
   "capabilitiesOptions": {
     "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_temperature": {
       "opts": {
         "duration": true
       }
